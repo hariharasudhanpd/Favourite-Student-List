@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 7%;
+  background: #ffffff;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.brand {
+  font-size: 23px;
+  font-weight: 700;
+  color: #252a34;
+  text-decoration: none;
+  letter-spacing: -0.8px;
+}
+
+.brand span {
+  color: #4c6fff;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #626777;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #405de6;
+}
+
+.favourite-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 5px;
+  border-radius: 50px;
+  background: #edf0ff;
+  color: #405de6;
+  font-size: 12px;
+}
